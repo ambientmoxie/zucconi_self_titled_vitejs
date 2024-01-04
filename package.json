@@ -1,0 +1,20 @@
+{
+  "name": "starter-kit",
+  "description": "vite.js vanilla javascript starterkit",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "network": "vite --host"
+  },
+  "devDependencies": {
+    "sass": "^1.64.2",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "textfit": "^2.4.0"
+  }
+}

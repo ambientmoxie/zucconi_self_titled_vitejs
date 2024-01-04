@@ -1,0 +1,59 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+*, *::after, *::before{
+  padding: 0;
+  margin: 0;
+}
+
+
+.composition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.composition div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.on {
+  flex-direction: column;
+}
+
+.within > div {
+  width: 75%;
+  height: 75%;
+}
+
+
+.subtitle {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: difference;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  span {
+    padding: 0.25em 0.5em 0.5em;
+    &:first-letter{
+      text-transform: capitalize;
+    }
+  }
+}
+
