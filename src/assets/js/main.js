@@ -75,3 +75,7 @@ function globaleComposition() {
 
 globaleComposition();
 window.addEventListener("click", globaleComposition);
+
+// Copyright
+
+console.log("Rebuild of \"Self-titled\" artwork by american digital artist Damon Zucconi");

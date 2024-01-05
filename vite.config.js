@@ -1,6 +1,6 @@
 export default {
   root: "src",
-  base: "/self-titled",
+  base: "/projects/self-titled",
   build: {
     outDir: "../dist",
     chunkSizeWarningLimit: 1000,
